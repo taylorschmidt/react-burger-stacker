@@ -6,19 +6,21 @@ Here is a rough wireframe of the general layout:
 
 ![](https://i.imgur.com/beMtwGj.png)
 
-___
+---
+
 ## User Stories
 
-* As a user, I want to see all available burger ingredients listed on the left side.
-* I want the ability to add any ingredient onto the burger stack using a button.
-* I want to see each ingredient I select added to the top of the burger stack on the right side.
-* I want the ability to clear the burger stack so I can start again.
-* I want to be able to add as many ingredients of any type as I want (ingredients don't go away.)
+- As a user, I want to see all available burger ingredients listed on the left side.
+- I want the ability to add any ingredient onto the burger stack using a button.
+- I want to see each ingredient I select added to the top of the burger stack on the right side.
+- I want the ability to clear the burger stack so I can start again.
+- I want to be able to add as many ingredients of any type as I want (ingredients don't go away.)
 
-___
+---
+
 ## Suggested Ways To Get Started
 
-1. Use `create-react-app` to generate a project called `burger-stacker`.
+1. Use `create-react-app` or `Simple-React-Starter` to generate a project called `burger-stacker`.
 2. Go into the newly created directory and open it up in your text editor.
 3. Clear out the generated code from the `App` component.
 4. Think about what components you need to make.
@@ -52,27 +54,32 @@ Here are some ingredients to get you started. Feel free to change them or add mo
 
 ```js
 [
-  {name: 'Kaiser Bun', color: 'saddlebrown'},
-  {name: 'Sesame Bun', color: 'sandybrown'},
-  {name: 'Gluten Free Bun', color: 'peru'},
-  {name: 'Lettuce Wrap', color: 'olivedrab'},
-  {name: 'Beef Patty', color: '#3F250B'},
-  {name: 'Soy Patty', color: '#3F250B'},
-  {name: 'Black Bean Patty', color: '#3F250B'},
-  {name: 'Chicken Patty', color: 'burlywood'},
-  {name: 'Lettuce', color: 'lawngreen'},
-  {name: 'Tomato', color: 'tomato'},
-  {name: 'Bacon', color: 'maroon'},
-  {name: 'Onion', color: 'lightyellow'}
-]
+  { name: "Kaiser Bun", color: "saddlebrown" },
+  { name: "Sesame Bun", color: "sandybrown" },
+  { name: "Gluten Free Bun", color: "peru" },
+  { name: "Lettuce Wrap", color: "olivedrab" },
+  { name: "Beef Patty", color: "#3F250B" },
+  { name: "Soy Patty", color: "#3F250B" },
+  { name: "Black Bean Patty", color: "#3F250B" },
+  { name: "Chicken Patty", color: "burlywood" },
+  { name: "Lettuce", color: "lawngreen" },
+  { name: "Tomato", color: "tomato" },
+  { name: "Bacon", color: "maroon" },
+  { name: "Onion", color: "lightyellow" },
+];
 ```
-___
+
+---
+
 ## BONUSES
 
-* Each ingredient has an associated color. Use this to give each ingredient a nice background color reminiscent of what it looks like in real life.
-* Add a form component (simply text input and button) to the ingredient side that lets a user add a new ingredient to the master list of ingredients in state.
-* Add the ability to "undo" the last ingredient added (only the last one) by clicking a button that will remove that ingredient. Only that top ingredient should have the button for this showing up. When that ingredient is removed, the next one down should then get the button that allows it to be removed. **HINT**: You probably need to add this button to the top `Ingredient` when you render it in the `BurgerStack` component.
-___
+- Each ingredient has an associated color. Use this to give each ingredient a nice background color reminiscent of what it looks like in real life.
+- Add a form component (simply text input and button) to the ingredient side that lets a user add a new ingredient to the master list of ingredients in state.
+- Add the ability to "undo" the last ingredient added (only the last one) by clicking a button that will remove that ingredient. Only that top ingredient should have the button for this showing up. When that ingredient is removed, the next one down should then get the button that allows it to be removed. **HINT**: You probably need to add this button to the top `Ingredient` when you render it in the `BurgerStack` component.
+
+---
+
 ## Licensing
+
 1. All content is licensed under a CC-BY-NC-SA 4.0 license.
 2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
