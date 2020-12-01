@@ -20,15 +20,12 @@ Here is a rough wireframe of the general layout:
 
 ## Suggested Ways To Get Started
 
-1. Use `create-react-app` or `Simple-React-Starter` to generate a project called `burger-stacker`.
-2. Go into the newly created directory and open it up in your text editor.
-3. Clear out the generated code from the `App` component.
-4. Think about what components you need to make.
-5. Write the static versions of your components.
-6. Layout the component hierarchy (decide which ones are children of others).
-7. Decide what the state should be.
-8. Decide where the state should live.
-9. Write the handler callbacks that you pass into children to update state.
+1. Think about what components you need to make.
+2. Write the static versions of your components.
+3. Layout the component hierarchy (decide which ones are children of others).
+4. Decide what the state should be.
+5. Decide where the state should live.
+6. Write the handler callbacks that you pass into children to update state.
 
 ### Sample Idea for Component Hierarchy:
 
