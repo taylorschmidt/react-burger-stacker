@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 // Components imports
 import FunctionalComponent from "./components/FunctionalComponent";
 // CSS imports
@@ -8,7 +8,6 @@ const App = () => {
   return (
     <div className="App">
       <FunctionalComponent />
-      <ClassComponent />
     </div>
   );
 };

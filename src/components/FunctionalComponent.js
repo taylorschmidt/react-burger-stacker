@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
 
-// Sample of use Effect
-useEffect(() => {
-  effect;
-  return () => {
-    cleanup;
-  };
-}, [input]);
-
 const FunctionalComponent = () => {
+  // Sample of use Effect
+  // useEffect(() => {
+  //   effect;
+  //   return () => {
+  //     cleanup;
+  //   };
+  // }, [input]);
+
   return <div>FunctionalComponent</div>;
 };
 
