@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 // Components imports
 import FunctionalComponent from "./components/FunctionalComponent";
-import ClassComponent from "./components/ClassComponent";
 // CSS imports
 import "./css/App.css";
 
