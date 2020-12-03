@@ -1,26 +1,13 @@
-//Where the order of ingredients matters
-//needs spread operator
-
 import React from "react";
-import Ingredients from "./Ingredients"
+import BurgerIngredients from "./BurgerIngredients"
 
 
-const BurgerStack = () => {
-
-
-    
+const BurgerStack = ({burgerStack}) => {
 
   return (
     <>
-    
-<div>Burger Stack</div>
-
-
-    
-    <Ingredients />
-
+        <BurgerIngredients burgerStack={burgerStack} />
     </>
- 
   )
 };
 

@@ -2,15 +2,28 @@
 
 import React, { useState, useEffect } from "react";
 
-const Ingredients = ({ chosenIngredients }) => {
-  return (
-    <>
-      Invisible Ingredient State Here!!:
-      {chosenIngredients &&chosenIngredients.map((ingredient) => (
-        <div>{ingredient}</div>
-      ))}
-    </>
-  );
+const Ingredients = ({ingredient , addIngredient}) => {
+    
+    return (
+        <>
+        List of Available Burger Ingredients:
+          <ul>
+            {ingredient.map((item, index) => (
+              <li key={`item-${index}`}>
+                {item.name}
+                <button
+                  onClick={(e) => {
+                    addIngredient(e, item);
+                  }}
+                >
+                  Add to Burger
+                </button>
+              </li>
+            ))}
+          </ul>
+        </>
+      );
+      
 };
 
 export default Ingredients;

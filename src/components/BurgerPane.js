@@ -1,21 +1,17 @@
 import React from "react";
 import BurgerStack from "./BurgerStack"
+import ClearBurger from "./ClearBurger"
 
 
-const BurgerPane = () => {
-
-
-
-
+const BurgerPane = ({burgerStack, clearBurger}) => {
   return (
     <>
-<div>Burger Pane</div>
-<BurgerStack />
+    <h2>My Burger:</h2>
+        <BurgerStack burgerStack={burgerStack}/>
+        <ClearBurger clearBurger={clearBurger}/>
     </>
  
   )
 };
 
 export default BurgerPane;
-
-//returning the stack which returns ingredients
