@@ -22,23 +22,26 @@ function App() {
 
   const [burgerStack, setBurgerStack] = useState([])
 
-  const addIngredient = (e, addedIngredent) => {
+  const addIngredient = (e, addedIngredient) => {
     e.preventDefault();
-    setBurgerStack([addedIngredent, ...burgerStack])
+    setBurgerStack([addedIngredient, ...burgerStack])
   }
 
-  function clear(e) {
+  function clearBurger(e) {
     setBurgerStack([])
   }
 
 
 
   return (
-    <div>
+    <>
       <h2>Make a Burger!</h2>
+       
       <IngredientList ingredient={ingredient} addIngredient={addIngredient}/>
-      <BurgerPane burgerStack={burgerStack} clearBurger={clear}/>
-     </div>
+      
+      <BurgerPane burgerStack={burgerStack} clearBurger={clearBurger}/>
+    
+     </>
   )
 }
 
