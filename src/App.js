@@ -34,14 +34,16 @@ function App() {
 
 
   return (
-    <>
+    <div className="App">
+      <div>
       <h2>Make a Burger!</h2>
        
       <IngredientList ingredient={ingredient} addIngredient={addIngredient}/>
-      
+      </div>
+      <div>
       <BurgerPane burgerStack={burgerStack} clearBurger={clearBurger}/>
-    
-     </>
+      </div>
+      </div>
   )
 }
 

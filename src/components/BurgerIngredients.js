@@ -10,7 +10,7 @@ const BurgerIngredients = ({ burgerStack }) => {
       <div>....................</div>
       <div>Bottom of Burger</div>
     </>
-  );C
+  );
 };
 
 export default BurgerIngredients;
